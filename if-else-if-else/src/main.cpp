@@ -1,4 +1,5 @@
-String weekDay = "Friday";
+#include <Arduino.h>
+String weekDay = "Sunday";
 String subjectName = "";
 
 void setup()
