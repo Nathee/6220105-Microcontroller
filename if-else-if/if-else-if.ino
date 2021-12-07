@@ -1,4 +1,4 @@
-String weekDay = "Friday";
+String weekDay = "Tuesday";
 String subjectName = "";
 
 void setup()
@@ -15,6 +15,18 @@ void loop()
     else if (weekDay == "Tuesday")
     {
         subjectName = "เรียนวิชาไมโครคอนโทรลเลอร์";
+    }
+    else if (weekDay == "Wednesday")
+    {
+        subjectName = "เรียนวิชาโครงงาน";
+    }
+    else if (weekDay == "Thursday")
+    {
+        subjectName = "เรียนวิชาโทรคมนาคม";
+    }
+    else if (weekDay == "Friday")
+    {
+        subjectName = "เรียนวิชาพื้นฐานอิเล็กทรอนิกส์อัฉริยะ";
     }
     else
     {
