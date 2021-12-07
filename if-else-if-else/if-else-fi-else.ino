@@ -1,5 +1,5 @@
-string weekDay = "Tuesday";
-string message = "";
+String weekDay = "Tuesday";
+String message = "";
 void setup()
 {
     Serial.begin(115200);
